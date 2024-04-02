@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorveteria Survey</title>
+  <link rel="stylesheet" href="forms.css" />
+</head>
+<body>
+  <form id="survey-form">
+    <h1 id="title">Avaliação da Sorveteria</h1>
+    <p id="description">
+      Obrigado por nos ajudar a melhorar nossa sorveteria!
+    </p>
+
+    <label for="name" id="name-label">Nome:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      placeholder="Digite seu nome"
+    />
+    <label for="email" id="email-label">Email:</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      placeholder="Digite seu email"
+    />
+    <label for="age" id="age-label">Idade:</label>
+    <input
+      type="number"
+      id="age"
+      name="age"
+      required
+      min="1"
+      placeholder="Digite sua idade"
+    ></input>
+
+    <legend>Qual sabor mais gostou:</legend>
+    <select id="dropdown">
+      <option value="chocolate">Chocolate</option>
+      <option value="morango">Morango</option>
+      <option value="baunilha">Baunilha</option>
+      <option value="caramelo">Caramelo</option>
+      <option value="limao">Limão</option>
+    </select>
+
+    <fieldset>
+      <legend>Qual tamanho você escolheu:</legend>
+      <label><input type="radio" name="size" value="pequeno" /> Pequeno</label><br />
+      <label><input type="radio" name="size" value="médio" /> Médio</label><br />
+      <label><input type="radio" name="size" value="grande" /> Grande</label><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Quais os toppings você mais gosta:</legend>
+      <label><input type="checkbox" name="topping" value="chocolate" /> Chocolate</label><br />
+      <label><input type="checkbox" name="topping" value="frutas" /> Frutas</label><br />
+      <label><input type="checkbox" name="topping" value="marshmallow" /> Marshmallow</label><br />
+      <label><input type="checkbox" name="topping" value="chantilly" /> Chantilly</label><br />
+      <label><input type="checkbox" name="topping" value="outros" /> Outros</label><br />
+    </fieldset>
+
+    <fieldset>
+      <label for="profile-picture">Envie uma foto comendo sorvete:
+        <input id="profile-picture" type="file" name="file"/>
+      </label>
+    </fieldset>
+    <br>
+    
+    <label for="comments">Comentários adicionais:</label>
+    <textarea id="comments" name="comments" placeholder="Digite seus comentários"></textarea>
+
+    <label for="terms-and-conditions">
+      <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions"/>
+      Eu aceito os <a href="https://www.freecodecamp.org/news/terms-of-service/">termos e condições</a>
+    </label>
+
+    <button type="submit" id="submit">Enviar</button>
+  </form>
+</body>
+</html>

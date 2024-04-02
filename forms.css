@@ -1,0 +1,186 @@
+body {
+  background-image: url(https://img.freepik.com/fotos-gratis/milk-shakes-indulgentes-sobremesas-chocolate-doce-frutas-silvestres-refresco-cremoso-generativo-ia_188544-12125.jpg?w=1380&t=st=1712066166~exp=1712066766~hmac=82d30b1a4beec2480c2f365a1e304101dff89aba77cdb8784400a6118e08abce);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  min-width: 300px;
+  padding-bottom: 2em;
+  margin: auto;
+  background-image: url(https://img.freepik.com/fotos-gratis/close-up-de-vidro-milkshake-de-morango-com-fundo-rosa_23-2148037208.jpg?w=740&t=st=1712067746~exp=1712068346~hmac=613891373c310b471af2d4ab3df7f4bbf99b5372a60330b4d9cd78624b797daa);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Seu resto de CSS continua aqui */
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+/* Estilizando o título */
+
+#title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilizando a descrição */
+#description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilizando os rótulos */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilizando os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilizando os botões */
+button {
+  padding: 10px 20px;
+  background-color: #e4b886;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f3b268;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilizando os checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilizando o container do formulário */
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+/* Estilizando o título */
+#title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilizando a descrição */
+#description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilizando os rótulos */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilizando os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilizando os botões */
+button {
+  padding: 10px 20px;
+  background-color: #dba674;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f5b873;
+}
+
+#submit {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #ec96a1; /* Skin tone color */
+  border-color: rgb(163, 53, 53);
+  min-width: 300px;
+}
+
+#submit:hover {
+  background-color: #920e3a;
+  transition: background-color 0.5s ease, transform 0.5s ease,
+    box-shadow 0.5s ease;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilizando os checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilizando o container do formulário */
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
