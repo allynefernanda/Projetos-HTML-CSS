@@ -46,7 +46,7 @@ nav > ul {
 nav > ul > li {
   color: rgb(238, 237, 237);
   margin: 0 0.2rem;
-  padding: 0 20 0 15;
+  padding: 0 20px 0 15px;
   display: inline;
 }
 
@@ -103,21 +103,20 @@ p{
 }
 
 img {
-  height: 350px;
-  width: 350px;
+  height: 450px;
+  width: 250px;
 }
 
 #project-title{
   color: white;
   text-decoration: underline;
   font-style: normal;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: lighter;
 }
 
 #projects{
-  margin: -10;
-  padding: 50px;
+  padding: 100px;
   font-size: 20px;
   font-weight: bold;
   background-color: rgb(70, 194, 203);
@@ -131,8 +130,7 @@ img {
 
 #projects-figures{
   display: flex;
-  margin: 50px;
-  padding: 10px;
+  margin: 30px 40px 0 40px;
 }
 
 .project-tile{
@@ -141,9 +139,10 @@ img {
 }
 
 figcaption{
-  height: 50px;
+  height: 40px;
+  margin-top: -5px;
   text-align: center;
-  font-size: 4vh;
+  font-size: 3.2vh;
   font-weight: normal;
   font-style: normal;
   display: block;
@@ -160,17 +159,24 @@ a {
   height: 45vh;
 }
 
+#contatos{
+  height: 90vh;
+}
+
 .svg-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 100 0 100;
+  margin: 0 100 0 0;
+  padding: 0 50px 0 50px;
+  text-align: center;
 }
 
 #info{
-  margin: 200 0 70 0;
-  padding: 0;
+  margin: 100 0 70 0;
+  padding: 80px;
+  height: 200px;
 }
 
 #linha-quebra{
@@ -180,7 +186,7 @@ a {
 }
 
 footer{
-  height: 5vh;
+  height: 3vh;
 }
 
 footer p {
